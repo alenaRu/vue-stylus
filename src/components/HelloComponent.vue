@@ -1,6 +1,12 @@
 <template>
-  <h1>Hello {{ name }}!</h1>
+  <div>
+    <h1>Hello {{ name }}!</h1>
+    <v-btn fab dark >
+      <v-icon>fab fa-linkedin-in</v-icon>
+    </v-btn>
+  </div>
 </template>
+
 <script>
   export default {
     props: {
